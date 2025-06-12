@@ -5,7 +5,7 @@ from datetime import datetime
 import re
 
 # %% [2] 데이터 로드
-input_path = Path("2.llm_result") / "20250609_131102_llm_result.json"
+input_path = Path("2.llm_result") / "20250612_140851_llm_result.json"
 df = pd.read_json(input_path)
 
 # %% [3] 텍스트 정제 함수
