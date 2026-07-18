@@ -46,6 +46,6 @@ timestamp = datetime.datetime.now().strftime("%Y%m%d_%H%M%S")
 output_path = Path("1.data") / f"{timestamp}_prompt_ready.csv"
 prompt_df.to_csv(output_path, index=False, encoding="utf-8-sig")
 
-print(f"✅ 프롬프트 데이터셋 저장 완료: {output_file}")
+print(f"✅ 프롬프트 데이터셋 저장 완료: {output_path}")
 
 # %%
